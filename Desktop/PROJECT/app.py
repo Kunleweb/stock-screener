@@ -24,7 +24,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Get API key from environment variable
-ALPHA_VANTAGE_API_KEY = os.getenv('ALPHA_VANTAGE_API_KEY')
+ALPHA_VANTAGE_API_KEY = os.getenv('A4LS8PDTFSHUW6AG3')
 if not ALPHA_VANTAGE_API_KEY:
     logger.error("ALPHA_VANTAGE_API_KEY not found in environment variables")
     raise ValueError("ALPHA_VANTAGE_API_KEY environment variable is required")
