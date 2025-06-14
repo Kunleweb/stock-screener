@@ -118,3 +118,5 @@ except Exception as e:
     print(traceback.format_exc())
     print("\nPress Enter to exit...")
     input() 
+
+application = app  
