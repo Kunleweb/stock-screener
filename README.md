@@ -55,7 +55,7 @@ python index.py
 
 ```
 stock_screener/
-├── app.py              # Main application file
+├── server.py              # Main application file
 ├── requirements.txt    # Project dependencies
 ├── .env               # Environment variables (not in git)
 ├── .gitignore         # Git ignore file
@@ -67,6 +67,4 @@ stock_screener/
 └── README.md          # This file
 ```
 
-## License
 
-MIT License 
