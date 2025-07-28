@@ -22,25 +22,19 @@ git clone <your-repository-url>
 cd stock-screener
 ```
 
-2. Create and activate a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. Install dependencies:
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Set up environment variables:
+3. Set up environment variables:
 Create a `.env` file in the project root with:
 ```
 ALPHA_VANTAGE_API_KEY=your_api_key_here
 FLASK_ENV=production
 ```
 
-5. Run the application:
+4. Run the application:
 ```bash
 python app.py
 ```
