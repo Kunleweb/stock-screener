@@ -36,7 +36,7 @@ FLASK_ENV=production
 
 4. Run the application:
 ```bash
-python app.py
+python index.py
 ```
 
 ## Environment Variables
